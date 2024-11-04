@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and Metadata Viewer</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script> 
+</head>
+<body>
+    <div id="uploadContainer">
+        <h1>ImageGuard</h1>
+        <form id="uploadForm">
+            <input type="file" id="fileInput" accept="image/*" required>
+            <button type="submit">Upload Image</button>
+        </form>
+        <div id="imageContainer"></div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
